@@ -11,7 +11,7 @@ def foo(pl):
 def test(pl, eml):
     ml = foo(pl)
     print("{} => {}".format(pl, ml))
-    assert eml == foo(pl)
+    assert eml == ml
 
 
 test([], [])
